@@ -1,0 +1,52 @@
+﻿h1 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100px;
+    text-align : center;
+    color: green;
+}
+h2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    color: red;
+}
+h3 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    color: blue;
+}
+p{
+    font-size: 14px;
+    font-style:italic;
+    font-weight: bold;
+}
+.yel{
+     color: blue;
+ }
+.blue{
+    color: red;
+}
+.red {
+    color: green;
+}
+li{
+  color: blue;
+  margin: 10px;
+  padding: 10px;
+}
