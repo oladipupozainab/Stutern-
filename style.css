@@ -1,0 +1,106 @@
+﻿body {
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 50px;
+}
+.a {
+    float: left;
+    margin-top: -20px;
+}
+.logo{
+    font-size: 30px;
+    font-style:italic;
+    font-weight: bold;
+    color: fuchsia;
+    margin-left: 25px;
+}
+.b{
+    float: right;
+    
+}
+li{
+    display: inline-block;
+}
+.b a {
+    text-decoration: none;
+    color: fuchsia;
+    margin-right: 20px;
+}
+.c:hover{
+    background-color: #000000;
+    color:white;
+}
+.e{
+    height: 200px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: 60px;
+ }
+.d{
+    height: 220px;
+    margin-left: 30px;
+}
+.e{
+    margin-left: 200px;
+    border: 4px dotted fuchsia;
+    width: 55%;
+    height: 230px;
+    line-height: 25px;
+}
+.f {
+    padding: 10px;
+    border: 4px dotted fuchsia;
+    width: 45%;
+    height: auto;
+    line-height: 25px;
+}
+span{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skills {
+    margin-left: 60px;
+    border: 4px dotted black;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+   
+}
+
+h1, h3{
+    text-align: center;
+    color:fuchsia;
+}
+span:hover{
+    background: fuchsia;
+    color: white;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    
+    .e{
+        width: 100%;
+        height: auto;
+        margin:0;
+    }
+    .f, .skills {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    .f{
+        margin-top: -20px;
+    }
+    .skills{
+        margin-top: 20px;
+    }
+}
+
